@@ -22,7 +22,7 @@ class MyDocument extends Document {
             content="Arigem Logistics"
             key="og-title"
           />
-          <link rel="icon" href="/favicon.ico" />
+          <link rel="icon" href="/logo.png" />
           <link
             href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800;900&display=swap"
             rel="stylesheet"
