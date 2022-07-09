@@ -1,15 +1,7 @@
-@use "variables" as variable;
-
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: variable.$font-family;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
 }
 
 * {
