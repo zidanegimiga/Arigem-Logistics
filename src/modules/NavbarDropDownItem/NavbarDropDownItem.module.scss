@@ -38,6 +38,8 @@
           
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
+
+    transition: transform 1s;    
 }
 
 .itemDropDownContainer{
