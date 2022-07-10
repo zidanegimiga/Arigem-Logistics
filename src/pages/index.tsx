@@ -7,6 +7,7 @@ import Clients from 'src/modules/Clients';
 
 import styles from '../../styles/Home.module.scss';
 import Services from 'src/modules/Services';
+import WorkProcess from 'src/modules/Work Process';
 
 const Home =() => {
   return (
@@ -17,6 +18,7 @@ const Home =() => {
       <Hero />
       <Clients />
       <Services />
+      <WorkProcess />
     </div>
   )
 }
