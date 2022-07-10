@@ -3,8 +3,10 @@ import Head from 'next/head';
 
 import Navbar from 'src/commons/Navbar';
 import Hero from 'src/modules/Hero';
+import Clients from 'src/modules/Clients';
 
 import styles from '../../styles/Home.module.scss';
+import Services from 'src/modules/Services';
 
 const Home =() => {
   return (
@@ -12,8 +14,9 @@ const Home =() => {
       <Head>
         <title>Arigem Logistics</title>
       </Head>
-      <Navbar />
       <Hero />
+      <Clients />
+      <Services />
     </div>
   )
 }
