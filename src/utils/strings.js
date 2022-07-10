@@ -56,9 +56,29 @@ const PROCESSES = [
 
 ]
 
+const GROWTHFIGURES = [
+  {
+    figures: "2015",
+    description: "Year Established"
+  },
+  {
+    figures: "30+",
+    description: "Happy Clients"
+  },
+  {
+    figures: "150+",
+    description: "Services Provided"
+  },
+  {
+    figures: "20+",
+    description: "Partners Made"
+  },
+]
+
 export { 
   SERVICEDESCRIPTION, 
   SERVICECARDS, 
   WORKPROCESSDESCRIPTION, 
-  PROCESSES 
+  PROCESSES,
+  GROWTHFIGURES 
 };
