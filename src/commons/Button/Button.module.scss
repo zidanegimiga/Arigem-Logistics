@@ -9,3 +9,14 @@
     font-family: var.$manrope;
     font-weight: 600px;
 }
+
+.roundedButton{
+    padding: 8px 44px;
+    border-radius: 32px;
+    background-color: var.$orange;
+    font-family: var.$gothic;
+    font-weight: 900;
+    font-size: var.$body-regular;
+    color: var.$white;
+    width: 172px;
+}

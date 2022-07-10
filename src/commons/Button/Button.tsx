@@ -7,4 +7,10 @@ const Button = () => {
   )
 }
 
+export const RoundedButton = ({text}) =>{
+  return(
+    <div className={styles.roundedButton}>{text}</div>
+  )
+}
+
 export default Button
