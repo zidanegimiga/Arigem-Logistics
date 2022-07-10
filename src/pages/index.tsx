@@ -8,6 +8,7 @@ import Clients from 'src/modules/Clients';
 import styles from '../../styles/Home.module.scss';
 import Services from 'src/modules/Services';
 import WorkProcess from 'src/modules/Work Process';
+import Growth from 'src/modules/Growth';
 
 const Home =() => {
   return (
@@ -19,6 +20,7 @@ const Home =() => {
       <Clients />
       <Services />
       <WorkProcess />
+      <Growth />
     </div>
   )
 }
