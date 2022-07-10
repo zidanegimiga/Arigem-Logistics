@@ -1,7 +1,5 @@
 import React from 'react';
 import Image from 'next/image';
-import { RoundedButton } from 'src/commons/Button';
-import {SERVICEDESCRIPTION} from '../../utils/strings';
 import styles from './ServicesCard.module.scss';
 
 const ServicesCard = ({color, number, title, bodyText, image, width, height}) => {
