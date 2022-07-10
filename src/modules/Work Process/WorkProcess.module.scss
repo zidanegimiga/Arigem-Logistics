@@ -1,0 +1,75 @@
+@use "../../../styles/variables" as var;
+
+.sectionContainer{
+  margin-top: var.$section-spacing;
+  margin-left: 121px;
+  margin-right: 121px;
+}
+
+.description{
+  span{
+    font-family: var.$gothic;
+    font-size: var.$body-accent;
+    color: var.$orange;
+    font-weight: 900;
+  }
+
+  h2{
+    font-family: var.$manrope;
+    font-size: var.$h2;
+    color: var.$black;
+    font-weight: 800;
+    margin-bottom: 16px;
+    margin-top: 1px;
+
+    span{
+      font-family: var.$gothic;
+      font-size: var.$h2;
+      color: var.$orange;
+      font-weight: 800;      
+    }
+  }
+  
+  p{
+    font-family: var.$manrope;
+    font-size: var.$body-regular;
+    color: var.$dark-gray;
+    font-weight: 500;
+    line-height: 30px;
+    margin-bottom: 16px;
+    margin-bottom: 24px;
+    width: 40vw;
+  }
+}
+
+.processContainer{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 72px;
+  margin-bottom: 72px;
+}
+
+.processCard{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-repeat: no-repeat;
+  max-width: 294px;
+  min-height: 222px;
+
+  span{
+    font-family: var.$manrope;
+    font-weight: 800;
+    font-size: var.$body-regular;
+    color: var.$black;    
+  }
+
+  p{
+    font-family: var.$manrope;
+    font-weight: 400;
+    font-size: var.$body-regular;
+    color: var.$dark-gray;
+    line-height: 24px;
+  }
+
+}
