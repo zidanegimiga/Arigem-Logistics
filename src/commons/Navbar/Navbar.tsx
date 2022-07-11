@@ -19,7 +19,7 @@ const Navbar = () => {
       <NavbarDropDownItem title="SERVICES" items={SERVICES}/>
       <NavbarDropDownItem title="COMPANY" items={COMPANY}/>
       <div className={styles.navItem}>BLOG</div>
-      <Button />
+      <Button text="Contact us"/>
     </div>
   );
 }
