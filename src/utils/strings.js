@@ -75,10 +75,44 @@ const GROWTHFIGURES = [
   },
 ]
 
+const VALUES = [
+  {
+    icon: "/commitment.png",
+    title: "Commitment",
+    description: "Letter of on become he tended active enable to. Vicinity relation sensible sociable surprise screened no up as."
+  },
+  {
+    icon: "/customer.png",
+    title: "Customer Value",
+    description: "Letter of on become he tended active enable to. Vicinity relation sensible sociable surprise screened no up as."
+  },
+  {
+    icon: "/teamwork.png",
+    title: "Teamwork",
+    description: "Letter of on become he tended active enable to. Vicinity relation sensible sociable surprise screened no up as."
+  },
+  {
+    icon: "/proffesional.png",
+    title: "Professionalism",
+    description: "Letter of on become he tended active enable to. Vicinity relation sensible sociable surprise screened no up as."
+  },
+  {
+    icon: "/flexibility.png",
+    title: "Flexibility and Adaptability",
+    description: "Letter of on become he tended active enable to. Vicinity relation sensible sociable surprise screened no up as."
+  },
+  {
+    icon: "/responsibility.png",
+    title: "Social Responsibility",
+    description: "Letter of on become he tended active enable to. Vicinity relation sensible sociable surprise screened no up as."
+  },
+];
+
 export { 
   SERVICEDESCRIPTION, 
   SERVICECARDS, 
   WORKPROCESSDESCRIPTION, 
   PROCESSES,
-  GROWTHFIGURES 
+  GROWTHFIGURES,
+  VALUES 
 };
