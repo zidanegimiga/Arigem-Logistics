@@ -1,9 +1,13 @@
-import React from 'react'
+import React, { ButtonHTMLAttributes } from 'react'
 import styles from './Button.module.scss';
 
-const Button = ({text, type}) => {
+interface ButtonProps {
+  text: string;
+}
+
+const Button: React.FC<ButtonProps> = ({text}) => {
   return (
-    <button type={type} className={styles.button}>{text}</button>
+    <button type="submit" className={styles.button}>{text}</button>
   )
 }
 

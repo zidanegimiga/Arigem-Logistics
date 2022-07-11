@@ -54,7 +54,7 @@ const Form = () => {
           />
         </div>
         <div className={styles.bottom}>
-          <Button type="submit" text="SEND MESSAGE"/>
+          <Button text="SEND MESSAGE"/>
         </div>
       </form>
     </div>
