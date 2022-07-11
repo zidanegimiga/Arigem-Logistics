@@ -1,0 +1,55 @@
+@use "../../../styles/variables" as var;
+
+.hero{
+  background-image: url("/hero-background.svg");
+  background-repeat: no-repeat;
+  height: 782px;
+}
+
+.heroWrapper{
+  display: flex;
+  justify-content: space-between;
+}
+
+.left{
+  display: flex;
+  margin-left: 123.5px;
+  flex-direction: column;
+  justify-content: flex-end;
+
+  h1 {
+    font-family: var.$manrope;
+    font-size: var.$h1;
+    font-weight: 800;
+    line-height: 64px;
+  }
+
+  span{
+    color: var.$orange;
+  }
+
+  p{
+    font-family: var.$manrope;
+    font-size: var.$body-large;
+    line-height: 32px;
+    font-weight: 500px;
+    color: var.$dark-gray;
+  }
+}
+
+.cta{
+  color: var.$white;
+  background-color: var.$violet;
+  margin-top: 32px;
+  padding: 20px 200px;
+  border-radius: 10px;
+  font-family: var.$manrope;
+  font-weight: 800px;
+  width: 500px;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}

@@ -1,0 +1,90 @@
+@use "../../../styles/variables" as var;
+
+.footer{
+    background-color: #FEE4D3;
+    padding-top: 51px;    
+    padding-bottom: 51px;
+    padding-left: 121px;
+    padding-right: 121px;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logoContainer{
+    display: flex;
+
+    h3{
+      font-family: var.$gothic;
+      font-weight: 700;
+      color: var.$dark-blue;
+    }
+}
+
+.company{
+  p{
+    font-family: var.$gothic;
+    font-weight: 900;
+    color: var.$dark-gray;
+  }
+}
+
+.contact{
+  h3{
+    font-family: var.$gothic;
+    font-weight: 700;
+    color: var.$dark-blue;    
+  }
+
+  p{
+    font-weight: 500;
+    font-size: 16px;
+    font-family: var.$manrope;
+    color: var.$dark-blue;
+    line-height: 16px;
+  }  
+}
+
+.socials{
+  display:flex;
+  justify-content: space-between;
+
+  &:nth-child(1){
+    cursor: pointer;
+    &:hover{
+      transform: scale(2);
+    }
+  }
+}
+
+
+
+.businessHours{
+  h3{
+    font-family: var.$gothic;
+    font-weight: 700;
+    color: var.$dark-blue;    
+  }
+
+  p{
+    font-weight: 500;
+    font-size: 16px;
+    font-family: var.$manrope;
+    color: var.$dark-blue;
+    line-height: 16px;
+  }
+}
+
+.bottom{
+    margin-top: 24px;
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 16px;
+    font-family: var.$manrope;
+    color: var.$dark-blue;
+    line-height: 24px;
+    text-align: center;
+}

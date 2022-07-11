@@ -1,0 +1,68 @@
+@use "../../../styles/variables" as var;
+
+.itemWrapper{
+  display: flex;
+  flex-direction: column;
+
+  &:hover{
+    .itemDropDownContainer{
+      display: block;
+    }
+    .arrow{
+      transform: rotate(-135deg);
+      -webkit-transform: rotate(-135deg);
+    }
+  }
+}
+
+.titleWrapper{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.title{
+  font-family: var.$gothic;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.arrow{
+    margin-left: 6px;
+    margin-bottom: 3px;
+    margin-left: 12px;
+    border: solid rgba(0,0,0,0.9);
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+          
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+
+    transition: transform 1s;    
+}
+
+.itemDropDownContainer{
+    display: none;
+    position: absolute;
+    top: 72px;
+    background-color: #FEF8F9;
+    min-width: 320px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border-radius: 0px 0px 8px 8px;
+    z-index: 2;
+}
+
+.dropdownItem{
+    cursor: pointer;
+    padding: 9px 16px;
+
+    p{
+        font-family: var.$gothic;
+        line-height: 20px;
+    }
+
+    &:hover{
+        background-color: #F1F1F1;
+    }
+}

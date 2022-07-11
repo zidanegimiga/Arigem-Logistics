@@ -1,0 +1,29 @@
+@use "../../../styles/variables" as var;
+
+.navWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 32px;
+  margin-right: 122px;
+  margin-left: 123.5px;
+  z-index: 1;
+  background: transparent;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+
+  span{
+    font-family: var.$gothic;
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 32px;
+  }
+}
+
+.navItem{
+  font-family: var.$gothic;
+  font-weight: 600;
+}

@@ -1,0 +1,64 @@
+@use "../../../styles/variables" as var;
+
+.sectionWrapper{
+  background-image: url("/growth-background.svg");
+  background-repeat: no-repeat;
+  margin-top: var.$section-spacing;
+  height: 542px;
+
+}
+
+.description{
+  padding-top: 72px;
+
+  p{
+    font-family: var.$gothic;
+    text-align: center;
+    font-size: var.$body-accent;
+    color: var.$orange;
+    font-weight: 900;
+  }
+
+  h2 {
+    font-family: var.$manrope;
+    text-align: center;
+    font-size: var.$h2;
+    color: var.$black;
+    font-weight: 800;
+    margin-bottom: 16px;
+    margin-top: 1px;
+    letter-spacing: 1%;
+  }
+}
+
+.growthCard{
+  display: flex;
+  justify-content: space-evenly;
+  background-color: var.$pure-white;
+  padding: 40px 80px;
+  border-radius: 20px;
+  border: 1px solid #DEE1E6;
+  margin-top: 56px;
+  margin-bottom: 100px;
+  margin-left: 121px;
+  margin-right: 121px;
+}
+
+.growth{
+  text-align: center;
+
+  span{
+    font-family: var.$marcellus;
+    font-size: var.$h1;
+    font-weight: 400;
+    margin-bottom: 24px;
+    color: var.$orange;
+  }
+
+  p{
+    font-family: var.$manrope;
+    font-size: var.$h3;
+    font-weight: 400;
+    color: var.$dark-gray;
+  }
+}

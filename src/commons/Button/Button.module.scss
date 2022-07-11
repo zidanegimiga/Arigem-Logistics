@@ -1,0 +1,24 @@
+@use "../../../styles/variables" as var;
+
+
+.button{
+    background-color: var.$orange;
+    padding: 16px 27px;
+    color: var.$white;
+    border-radius: 10px;
+    font-family: var.$manrope;
+    font-weight: 600px;
+    cursor: pointer;
+    border: none;
+}
+
+.roundedButton{
+    padding: 8px 44px;
+    border-radius: 32px;
+    background-color: var.$orange;
+    font-family: var.$gothic;
+    font-weight: 900;
+    font-size: var.$body-regular;
+    color: var.$white;
+    width: 172px;
+}

@@ -1,0 +1,29 @@
+@use "../../../styles/variables" as var;
+
+.card{
+  background-color: var.$pure-white;
+  padding-top: 32px;
+  padding-bottom: 16px;
+  padding-left: 16px;
+  border-radius: 20px;
+  min-height: 350px;
+  width: 380px;
+}
+
+.body{
+  margin-top: 16px;
+
+  h3{
+    font-family: var.$manrope;
+    font-size: var.$h3;
+    color: var.$dark-blue;
+  }
+  
+  p{
+    font-family: var.$manrope;
+    font-size: var.$body-regular;
+    color: var.$text-blue;
+    line-height: 24px;
+    width: 318px;
+  }
+}

@@ -1,0 +1,59 @@
+@use "../../../styles/variables" as var;
+
+.cardContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 368px;
+  padding: 16px 16px;
+  min-height: fit-content;
+  border-radius: 10px;
+  margin-right: 51px;
+}
+
+.cardHeader{
+  display: flex;
+  align-items: center;
+  
+  span{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: var.$gothic;
+    margin-right: 8px;
+  }
+
+  h3{
+    font-size: 24px;
+    font-weight: 700;
+    font-family: var.$gothic;
+    line-height: 24px;
+    text-align: center;
+  }
+}
+
+.button{
+  font-size: 20px;
+  font-weight: 700;
+  font-family: var.$gothic;
+  margin-top: 22px;
+  background-color: transparent;
+  border: none;
+  color: var.$dark-gray;
+  text-decoration: underline;
+  text-align: start;
+}
+
+.cardImage{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  align-self: center;
+}
+
+.cardDescription{
+  font-size: var.$body-regular;
+  font-weight: 500;
+  font-family: var.$manrope;
+  line-height: 24px;
+  margin-right: 3px;
+  color: var.$dark-gray;  
+}

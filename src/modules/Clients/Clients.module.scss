@@ -1,0 +1,23 @@
+@use "../../../styles/variables" as var;
+
+.sectionWrapper{
+  background-color: var.$white;
+  padding-bottom: 42px;
+  padding-top: 42px;
+  margin-bottom: var.$section-spacing;
+}
+
+.sectionTitle{
+  font-size: var.$h3;
+  font-family: var.$manrope;
+  text-align: center;
+  font-weight: 800;
+  margin-bottom: 42px;
+}
+
+.imageWrapper{
+  display: flex;
+  justify-content: space-evenly;
+  padding-left: 24px;
+  padding-right: 24px;
+}
