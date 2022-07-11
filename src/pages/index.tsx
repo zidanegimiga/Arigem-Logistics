@@ -9,6 +9,10 @@ import styles from '../../styles/Home.module.scss';
 import Services from 'src/modules/Services';
 import WorkProcess from 'src/modules/Work Process';
 import Growth from 'src/modules/Growth';
+import Mission from 'src/modules/Mission';
+import Values from 'src/modules/Values';
+import ContactForm from 'src/modules/Contact Form';
+import Footer from 'src/modules/Footer';
 
 const Home =() => {
   return (
@@ -21,6 +25,12 @@ const Home =() => {
       <Services />
       <WorkProcess />
       <Growth />
+      <Mission />
+      <Values />
+      {/* <Team /> */}
+      {/* <Recommendations /> */}
+      <ContactForm />
+      <Footer />
     </div>
   )
 }
