@@ -26,9 +26,9 @@ const Form = () => {
           <p>Email: arigemlogistics@gmail.com</p>
           
           <div className={styles.socials}>
-            <Image src={twitter} alt="twitter" width={35} height={27}/>
-            <Image src={linkedin} alt="linkedin" width={27} height={27}/>
-            <Image src={facebook} alt="facebook" width={27} height={27}/>
+            <div><Image src={twitter} alt="twitter" width={35} height={27}/></div>
+            <div><Image src={linkedin} alt="linkedin" width={27} height={27}/></div> 
+            <div><Image src={facebook} alt="facebook" width={27} height={27}/></div> 
           </div>
         </div>
         <div className={styles.businessHours}>

@@ -51,10 +51,10 @@
   display:flex;
   justify-content: space-between;
 
-  &:nth-child(1){
+  div{
     cursor: pointer;
     &:hover{
-      transform: scale(2);
+      transform: scale(110%);
     }
   }
 }
