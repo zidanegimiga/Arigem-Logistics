@@ -1,0 +1,32 @@
+@use "../../../styles/variables" as var;
+
+.sectionWrapper{
+  margin-top: 50px;
+}
+
+.top{
+  display:flex;
+  justify-content: space-between;
+  margin-left: 121px;
+  margin-right: 121px;
+}
+
+.section{
+  margin-top: 72px;
+  h2{
+    font-family: var.$manrope;
+    font-size: var.$h2;
+    margin-bottom: 32px;
+    color: var.$black;
+  }
+
+  p{
+    max-width: 384px;
+    font-family: var.$manrope;
+    font-size: var.$body-regular;
+    margin-bottom: 32px;
+    font-weight: 500;
+    line-height: 24px;
+    color: var.$dark-gray;
+  }
+}
