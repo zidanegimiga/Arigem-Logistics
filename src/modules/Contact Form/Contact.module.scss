@@ -1,0 +1,40 @@
+@use "../../../styles/variables" as var;
+
+.sectionWrapper{
+  padding-left: 121px;
+  padding-right: 121px;
+  padding-top: 64px;
+  padding-bottom: 64px;
+  background-color: var.$teal;
+  display: flex;
+}
+
+.description{
+  width: 30%;
+  color: var.$white;
+
+  span{
+    font-family: var.$gothic;
+    font-size: var.$body-accent;
+    font-weight: 700;
+  }
+  
+  h1{
+    font-family: var.$manrope;
+    font-size: var.$h1;
+    font-weight: 800;
+    line-height: 56px;
+    margin-top: 6px;
+  }
+  
+  p{
+    font-family: var.$manrope;
+    font-size: var.$body-large;
+    font-weight: 500;
+    line-height: 24px;
+  }
+}
+
+.formContainer{
+  width: 72%;
+}
