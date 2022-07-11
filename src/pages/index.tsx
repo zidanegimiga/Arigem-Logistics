@@ -13,6 +13,7 @@ import Mission from 'src/modules/Mission';
 import Values from 'src/modules/Values';
 import ContactForm from 'src/modules/Contact Form';
 import Footer from 'src/modules/Footer';
+import Team from 'src/modules/Team';
 
 const Home =() => {
   return (
@@ -27,7 +28,7 @@ const Home =() => {
       <Growth />
       <Mission />
       <Values />
-      {/* <Team /> */}
+      <Team />
       {/* <Recommendations /> */}
       <ContactForm />
       <Footer />
