@@ -22,7 +22,9 @@ const WorkProcess = () => {
           ))
         }
       </div>
-      <RoundedButton text="Talk to us" />      
+      <div className={styles.btn}>
+        <RoundedButton text="Talk to us" />
+      </div>      
     </div>
   )
 }
