@@ -1,6 +1,7 @@
 @use "../../../styles/variables" as var;
 
 .sectionWrapper{
+  margin-top: var.$section-spacing;
   padding-left: 121px;
   padding-right: 121px;
   padding-top: 64px;

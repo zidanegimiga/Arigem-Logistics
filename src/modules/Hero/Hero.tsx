@@ -7,12 +7,11 @@ import styles from './Hero.module.scss';
 const Hero = () => {
   return (
     <div className={styles.hero}>
-      <Navbar />
       <div className={styles.heroWrapper}>
         <div className={styles.left}>
-          <div>
-            <h1> We make<br/><span>office supplies </span>the<br/>least of your worries</h1>
-            <p>We are among the leading suppliers of office stationery,<br/>furniture and Graphic design solutions. We have partnered with<br/>the leading stationery brands to help fuel organizational<br/>success.</p>
+          <div className={styles.heroText}>
+            <h1><span>Office supplies </span><br/>will be the least of your worries.<br/>Only with Arigem</h1>
+            <p>We are among the leading suppliers of office stationery,<br/>furniture and Graphic design solutions.</p>
           </div>
           <div className={styles.cta}>
               Let&apos;s talk

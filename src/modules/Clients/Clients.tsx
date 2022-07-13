@@ -11,7 +11,7 @@ const Clients = () => {
       <div className={styles.imageWrapper}>
         {
           clientsLogos?.map((client) =>(
-            <div key={client.id}>
+            <div key={client.id} className={styles.image}>
               <Image src={client.path} alt={client.alt} width={client.width} height={client.height}/>
             </div>
           ))

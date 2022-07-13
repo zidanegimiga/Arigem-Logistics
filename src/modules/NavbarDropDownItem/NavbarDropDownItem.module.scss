@@ -22,9 +22,14 @@
 }
 
 .title{
-  font-family: var.$gothic;
+  font-family: var.$manrope;
+  font-weight: 900;
   font-size: 16px;
-  font-weight: 600;
+  color: #202c2c;
+
+  @media(max-width: 1080px) {
+    font-size: 14px;      
+  }
 }
 
 .arrow{
@@ -48,7 +53,7 @@
     top: 72px;
     background-color: #FEF8F9;
     min-width: 320px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 6px 0px rgba(0,0,0,0.2);
     border-radius: 0px 0px 8px 8px;
     z-index: 2;
 }
@@ -58,8 +63,11 @@
     padding: 9px 16px;
 
     p{
-        font-family: var.$gothic;
-        line-height: 20px;
+      font-family: var.$manrope;
+      font-size: 16px;
+      color: #202c2c;
+      font-weight: 600;
+      cursor: pointer;
     }
 
     &:hover{

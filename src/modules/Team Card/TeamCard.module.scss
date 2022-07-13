@@ -1,0 +1,101 @@
+@use "../../../styles/variables" as var;
+
+.card{
+    cursor: pointer;
+    padding-bottom: 24px;
+    padding-left: 48;
+    padding-right: 48;
+    background-color: #FDEFF4;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
+    height: 387px;
+    box-shadow: none;
+    transition-property: box-shadow;
+    transition-duration: 300ms;
+    transition-timing-function: ease-in-out;
+
+    @media(max-width: 1167px) {
+      width: 240px;     
+    }
+
+    @media(max-width: 671px) {
+      width: 160px;         
+    }
+
+    @media(max-width: 768px) {
+      width: 280px;
+      margin: auto;
+      margin-top: 24px;         
+      margin-bottom: 24px;         
+    }
+    
+    @media(max-width: 481px) {
+      width: auto;
+      margin: auto;
+      margin-top: 24px;         
+      margin-bottom: 24px;         
+    }
+  
+    h3{
+      font-family: var.$manrope;
+      font-size: var.$h3;
+      font-weight: 800;
+      color: var.$dark-blue;
+      text-align: center;
+      line-height: 16px;
+      margin-bottom: 0px;
+      transition-property: font-size;
+      transition-duration: 300ms;
+      transition-timing-function: ease-in-out;
+
+      @media(max-width: 671px) {
+        font-size: 20px;         
+      }
+      
+      @media(max-width: 481px) {
+        font-size: 18px;         
+      }
+    }
+  
+    &:hover{
+      box-shadow: -4px 4px 8px rgba(0, 0, 0, 0.25);
+      
+      h3{
+        font-size: calc(var.$h3 + 2px);
+      }
+    }
+  }
+  
+  .title{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    p{
+      font-family: var.$manrope;
+      color: var.$teal;
+      font-size: 16px;
+      font-weight: 700;
+      margin-right: 8px;
+      transition-property: margin-right;
+      transition-duration: 300ms;
+      transition-timing-function: ease-in-out;
+    }
+  
+    span{
+      font-size: 24px;    
+      color: var.$teal;
+      font-weight: 900;    
+    }
+  
+    &:hover{
+      p{
+        margin-right: 16px;      
+      }    
+    }
+  }
+  

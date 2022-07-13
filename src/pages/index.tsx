@@ -13,6 +13,7 @@ import Mission from 'src/modules/Mission';
 import Values from 'src/modules/Values';
 import ContactForm from 'src/modules/Contact Form';
 import Footer from 'src/modules/Footer';
+import Team from 'src/modules/Team';
 
 const Home =() => {
   return (
@@ -21,18 +22,19 @@ const Home =() => {
         <title>Arigem Logistics</title>
       </Head>
       <Hero />
+      <Navbar />
       <Clients />
       <Services />
       <WorkProcess />
       <Growth />
-      <Mission />
-      <Values />
-      {/* <Team /> */}
-      {/* <Recommendations /> */}
-      <ContactForm />
-      <Footer />
+      {/* <Mission />
+      <Values />*/}
+      <Team />
+      {/*<Recommendations />
+      <ContactForm /> */}
+      <Footer /> 
     </div>
   )
 }
 
-export default Home
+export default Home;
