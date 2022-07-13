@@ -3,6 +3,27 @@
 .sectionWrapper{
     margin-left: 121px;
     margin-right: 70px;
+    
+    @media(max-width: 1167px) {
+      margin: 0px 80px;     
+    }
+
+    @media(max-width: 1076px) {
+      margin: 0px 64px;     
+    }
+    
+    @media(max-width: 957px) {
+      margin: 0px 56px;     
+    }
+
+    @media(max-width: 768px) {
+      margin-left:32px;        
+      margin-right: 32px;        
+    }
+    
+    @media(max-width: 481px) {
+      margin: 0px 16px        
+    }
 }
 
 .description{
@@ -16,7 +37,7 @@
     h2{
       font-family: var.$manrope;
       font-size: var.$h2;
-      color: var.$black;
+      color: #222c2c;
       font-weight: 800;
       margin-bottom: 16px;
       margin-top: 1px;
@@ -25,12 +46,15 @@
     p{
       font-family: var.$manrope;
       font-size: var.$body-regular;
-      color: var.$dark-gray;
+      color: #222c2c;
       font-weight: 500;
       line-height: 30px;
       margin-bottom: 16px;
       margin-bottom: 24px;
       width: 40vw;
+      @media(max-width: 768px) {
+        width: 60vw;        
+      }
     }
 }
 
@@ -38,4 +62,22 @@
   display: flex;
   justify-content: space-between;
   margin-top: 105px;
+
+  @media(max-width: 1000px) {
+    display: flex;
+    flex-direction: column;        
+  }
+
+  @media(max-width: 768px) {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-row-gap: 16px;
+    margin-top: 16px;        
+  }
+
+  @media(max-width: 481px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;        
+  }
 }
