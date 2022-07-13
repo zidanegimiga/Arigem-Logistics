@@ -22,18 +22,19 @@ const Home =() => {
         <title>Arigem Logistics</title>
       </Head>
       <Hero />
+      <Navbar />
       <Clients />
       <Services />
       <WorkProcess />
       <Growth />
-      <Mission />
-      <Values />
+      {/* <Mission />
+      <Values />*/}
       <Team />
-      {/* <Recommendations /> */}
-      <ContactForm />
-      <Footer />
+      {/*<Recommendations />
+      <ContactForm /> */}
+      <Footer /> 
     </div>
   )
 }
 
-export default Home
+export default Home;
