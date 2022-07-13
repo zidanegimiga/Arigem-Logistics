@@ -26,6 +26,10 @@
   font-weight: 900;
   font-size: 16px;
   color: #202c2c;
+
+  @media(max-width: 1080px) {
+    font-size: 14px;      
+  }
 }
 
 .arrow{
