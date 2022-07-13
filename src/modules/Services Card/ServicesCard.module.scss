@@ -17,6 +17,21 @@
   transition-duration: 300ms;
   transition-timing-function: ease-in-out;
 
+  @media(max-width: 1000px) {
+    padding: 16px 8px;
+    width: 100%;
+    flex-direction: row;
+    margin-top: 16px;
+  }
+
+  @media(max-width: 768px) {
+    width: 100%;       
+  }
+
+  @media(max-width: 481px) {
+    flex-direction: column;          
+  }
+
   &:hover{
     box-shadow: -4px 4px 8px rgba(0, 0, 0, 0.25);
   }
@@ -24,6 +39,7 @@
 
 .cardHeader{
   display: flex;
+  flex-direction: column;
   align-items: center;
   
   span{
@@ -31,14 +47,50 @@
     font-weight: 700;
     font-family: var.$gothic;
     margin-right: 8px;
+    opacity: 0.5;
+
+    @media(max-width: 1000px) {
+      font-size: 30px;
+      margin-right: 4px;
+      margin-bottom: 0px;
+    }
+
+    @media(max-width: 768px) {
+      font-size: 28px;
+      margin-bottom: 8px;       
+    }
   }
 
   h3{
-    font-size: 24px;
+    font-size: var.$h3;
     font-weight: 700;
     font-family: var.$gothic;
     line-height: 24px;
     text-align: center;
+
+    @media(max-width: 1000px) {
+      margin-top: 0px;
+      font-size: 20px;
+    }
+
+    @media(max-width: 768px) {
+      font-size: 20px;       
+    }
+  }
+
+  @media(max-width: 768px) {
+    flex-direction: column;       
+  }
+}
+
+.left{
+  @media(max-width: 1000px) {
+    width: 50%;
+    padding: 8px;
+  }
+
+  @media(max-width: 481px) {
+    width: 100%;          
   }
 }
 
@@ -49,22 +101,50 @@
   margin-top: 22px;
   background-color: transparent;
   border: none;
-  color: var.$dark-gray;
+  color: #222c2c;
   text-decoration: underline;
   text-align: start;
+  
+  @media(max-width: 1000px) {
+    font-size: 16px;
+    text-align: end;
+  }
+
+  @media(max-width: 481px) {
+    font-size: 16px;
+    text-align: center;        
+  }
 }
 
 .cardImage{
   margin-top: 20px;
   margin-bottom: 20px;
-  align-self: center;
+  display: flex;
+  justify-content: center;
+  @media(max-width: 481px) {
+    margin-top: 16px;        
+    margin-bottom: 16px;        
+  }
 }
 
-.cardDescription{
+.right{
   font-size: var.$body-regular;
   font-weight: 500;
   font-family: var.$manrope;
   line-height: 24px;
   margin-right: 3px;
-  color: var.$dark-gray;  
+  color: #222c2c;
+  
+  @media(max-width: 1000px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 16px;
+    width: 50%;
+  }
+
+  @media(max-width: 481px) {
+    width: 100%; 
+    text-align: center;         
+  }
 }
