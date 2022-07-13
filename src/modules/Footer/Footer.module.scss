@@ -6,11 +6,35 @@
     padding-bottom: 51px;
     padding-left: 121px;
     padding-right: 121px;
+
+    @media(max-width: 1167px) {
+      padding: 0px 80px;     
+    }
+  
+    @media(max-width: 1076px) {
+      padding: 0px 64px;     
+    }
+  
+    @media(max-width: 957px) {
+      padding: 0px 56px;          
+    }
+    
+    @media(max-width: 768px) {
+      padding: 0px 32px;         
+    }
+  
+    @media(max-width: 481px) {
+      padding: 0px 16px;         
+    }
 }
 
 .top{
     display: flex;
     justify-content: space-between;
+
+    @media(max-width: 978px) {
+      flex-direction: column;          
+    }
 }
 
 .logoContainer{
@@ -21,6 +45,10 @@
       font-weight: 700;
       color: var.$dark-blue;
     }
+
+    @media(max-width: 957px) {
+      padding: 32px;          
+    }
 }
 
 .company{
@@ -28,6 +56,9 @@
     font-family: var.$gothic;
     font-weight: 900;
     color: var.$dark-gray;
+  }
+  @media(max-width: 957px) {
+    border-bottom: 2px solid gray;          
   }
 }
 
@@ -44,7 +75,11 @@
     font-family: var.$manrope;
     color: var.$dark-blue;
     line-height: 16px;
-  }  
+  }
+  
+  @media(max-width: 957px) {
+    margin-top: 24px;             
+  }
 }
 
 .socials{
@@ -56,6 +91,12 @@
     &:hover{
       transform: scale(110%);
     }
+  }
+
+  @media(max-width: 481px) {
+    justify-content: space-around;
+    padding: 24px;
+    border-bottom: 2px solid gray;          
   }
 }
 
@@ -74,7 +115,12 @@
     font-family: var.$manrope;
     color: var.$dark-blue;
     line-height: 16px;
+
+    span{
+      font-weight: 900;
+    }
   }
+
 }
 
 .bottom{
@@ -87,4 +133,7 @@
     color: var.$dark-blue;
     line-height: 24px;
     text-align: center;
+    span{
+      font-weight: 600;
+    }
 }
