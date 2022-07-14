@@ -95,24 +95,9 @@
 }
 
 .button{
-  font-size: 20px;
-  font-weight: 700;
-  font-family: var.$gothic;
-  margin-top: 22px;
-  background-color: transparent;
-  border: none;
-  color: #222c2c;
-  text-decoration: underline;
-  text-align: start;
-  
-  @media(max-width: 1000px) {
-    font-size: 16px;
-    text-align: end;
-  }
-
   @media(max-width: 481px) {
-    font-size: 16px;
-    text-align: center;        
+    align-self: center;
+    align-items: center;        
   }
 }
 
