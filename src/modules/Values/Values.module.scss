@@ -7,7 +7,24 @@
   justify-content: center;
   padding-top: 52px;
   padding-bottom: 52px;
-  grid-template-columns: 380px 380px 380px;
+  grid-template-columns: 320px 320px 320px;
   grid-column-gap: 30px;
   grid-row-gap: 30px;
+
+  @media (max-width: 1240px) {
+    grid-column-gap: 24px;
+    grid-template-columns: 320px 320px;          
+  }
+
+  @media (max-width: 700px) {
+    grid-column-gap: 16px;
+    grid-template-columns: 320px;          
+  }
+
+  @media (max-width: 481px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;          
+  }
 }

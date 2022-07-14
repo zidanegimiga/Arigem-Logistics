@@ -1,6 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import styles from './ServicesCard.module.scss';
+import { RoundedButton } from 'src/commons/Button';
 
 const ServicesCard = ({color, number, title, bodyText, image, width, height}) => {
   return (
@@ -18,7 +19,7 @@ const ServicesCard = ({color, number, title, bodyText, image, width, height}) =>
       </div>
       <div className={styles.right}>
         <p>{bodyText}</p>
-        <button className={styles.button}>READ MORE</button>
+        <div className={styles.button}> <RoundedButton text="READ MORE"/> </div>
       </div>
     </div>
   )

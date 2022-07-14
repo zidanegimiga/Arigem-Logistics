@@ -1,6 +1,8 @@
 @use "../../../styles/variables" as var;
 
 .sectionWrapper{
+  display: flex;
+  justify-content: space-between;
   margin-top: var.$section-spacing;
   padding-left: 121px;
   padding-right: 121px;
@@ -8,11 +10,37 @@
   padding-bottom: 64px;
   background-color: var.$teal;
   display: flex;
+
+  @media(max-width: 1167px) {
+    padding-left: 72px;
+    padding-right: 72px;        
+  }
+
+  @media(max-width: 978px) {
+    padding-left: 32px;
+    padding-right: 32px;        
+  }
+
+  @media(max-width: 846px) {
+    padding-left: 24px;
+    padding-right: 24px;        
+  }
+
+  @media(max-width: 781px) {
+    padding-left: 16px;
+    padding-right: 16px;
+    flex-direction: column;        
+  }
 }
 
 .description{
   width: 30%;
   color: var.$white;
+
+  @media(max-width: 781px) {
+    width: 100%;
+    padding: 16px;        
+  }
 
   span{
     font-family: var.$gothic;
@@ -37,5 +65,8 @@
 }
 
 .formContainer{
-  width: 72%;
+  width: 70%;
+  @media(max-width: 781px) {
+    width: 100%;        
+  }
 }

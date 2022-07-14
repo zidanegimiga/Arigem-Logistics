@@ -3,6 +3,9 @@
 .sectionWrapper{
     margin-left: 121px;
     margin-right: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     
     @media(max-width: 1167px) {
       margin: 0px 80px;     
@@ -22,11 +25,17 @@
     }
     
     @media(max-width: 481px) {
-      margin: 0px 16px        
+      margin: 0px 16px;
+      align-items: center;        
     }
 }
 
 .description{
+
+  @media(max-width: 481px) {
+    margin-bottom: 16px;
+    text-align: center;
+  }
     span{
         font-family: var.$gothic;
         font-size: var.$body-accent;
@@ -51,9 +60,13 @@
       line-height: 30px;
       margin-bottom: 16px;
       margin-bottom: 24px;
-      width: 40vw;
+      width: 40%;
       @media(max-width: 768px) {
-        width: 60vw;        
+        width: 60%;        
+      }
+
+      @media(max-width: 481px) {
+        width: 100%
       }
     }
 }

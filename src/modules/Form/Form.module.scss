@@ -1,12 +1,19 @@
 .top{
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
+    width: 100%;
+    @media(max-width: 781px) {
+      flex-direction: column;        
+    }
 }
 
 .bottom{
     display: flex;
     justify-content: flex-end;
     margin-right: 12px;
+    @media(max-width: 781px) {
+      justify-content: center;        
+    }
 }
 
 .middle{

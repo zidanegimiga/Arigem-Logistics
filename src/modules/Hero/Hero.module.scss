@@ -1,9 +1,9 @@
 @use "../../../styles/variables" as var;
 
 .hero{
-  background-image: url("/hero-background.svg");
-  background-repeat: no-repeat;
-  height: 800px;
+  // background-image: url("/hero-background.svg");
+  // background-repeat: no-repeat;
+  height: 650px;
   width: 100vw;
   padding-top: 126px;  
   padding-bottom: 126px;  
@@ -62,7 +62,7 @@
     font-family: var.$manrope;
     font-size: var.$h1;
     font-weight: 800;
-    line-height: 56px;
+    line-height: 64px;
     color: #222c2c;
 
     @media(max-width: 1081px) {
@@ -106,16 +106,16 @@
   cursor: pointer;
   display: flex;
   justify-content: center;
-  color: var.$white;
-  background-color: var.$violet;
-  margin: 32px 0px 0px 0px;
+  color: #212c2c;
+  background-color: #FFF4F4;
+  margin-top: 16px;
   padding: 20px;
   border-radius: 10px;
+  border: 1px #212c2c solid;
   font-family: var.$manrope;
   font-weight: 800;
   width: 100%;
   box-shadow: none;
-  border: none;
   transition-property: box-shadow;
   transition-duration: 300ms;
   transition-timing-function: ease-in-out;
@@ -133,7 +133,10 @@
     padding: 16px;         
   }
   &:hover{
-    box-shadow: -4px 4px 8px rgba(0, 0, 0, 0.25);
+    box-shadow: -2px 2px 4px rgba(0, 0, 0, 0.1);
+    color: var.$white;
+    background-color: var.$orange;
+    border: none;
   }
 }
 

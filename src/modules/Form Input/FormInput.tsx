@@ -3,7 +3,7 @@ import styles from './FormInput.module.scss';
 
 export const Input = ({name, label, type, placeholder, value, onChange}) => {
   return (
-    <div>
+    <div className={styles.inputWrapper}>
       <fieldset className={styles.fieldset}>
         <label htmlFor={name}>
           {label}
@@ -23,7 +23,7 @@ export const Input = ({name, label, type, placeholder, value, onChange}) => {
 
 export const TextArea = ({name, label, placeholder, value, onChange}) => {
   return (
-    <div>
+    <div className={styles.inputWrapper}>
       <fieldset className={styles.fieldset}>
         <label  htmlFor={name}>
           {label}
