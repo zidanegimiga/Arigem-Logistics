@@ -27,11 +27,11 @@ const Home =() => {
       <Services />
       <WorkProcess />
       <Growth />
-      {/* <Mission />
-      <Values />*/}
+      <Mission />
+      <Values />
       <Team />
-      {/*<Recommendations />
-      <ContactForm /> */}
+      {/*<Recommendations />*/}
+      <ContactForm /> 
       <Footer /> 
     </div>
   )
