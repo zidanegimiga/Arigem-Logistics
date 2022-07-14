@@ -19,7 +19,7 @@ const ServicesCard = ({color, number, title, bodyText, image, width, height}) =>
       </div>
       <div className={styles.right}>
         <p>{bodyText}</p>
-        <div> <RoundedButton text="READ MORE"/> </div>
+        <div className={styles.button}> <RoundedButton text="READ MORE"/> </div>
       </div>
     </div>
   )
