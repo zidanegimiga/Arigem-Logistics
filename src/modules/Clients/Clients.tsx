@@ -7,7 +7,7 @@ import clientsLogos from '../../utils/clientsLogos';
 const Clients = () => {
   return (
     <div className={styles.sectionWrapper}> 
-      <h3 className={styles.sectionTitle}>Over 32 businesses trusted and are growing with ARIGEM</h3>
+      <h3 className={styles.sectionTitle}>Over 32 businesses trusted and are growing with ARIGEM LOGISTICS</h3>
       <div className={styles.imageWrapper}>
         {
           clientsLogos?.map((client) =>(
